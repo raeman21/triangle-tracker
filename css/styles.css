@@ -2,6 +2,7 @@ h1{
   text-align: center;
   font-family: 'Black Han Sans', sans-serif;
   font-size: 50px;
+  color:#2EFEF7;
 
 }
 body{
@@ -9,11 +10,13 @@ body{
 }
 p{
   font-size: 50px;
-  color:white;
+  color:#FA58AC;
   text-align: center, justify;
   font-family: 'Black Han Sans', sans-serif;
   font-family: 'Audiowide', cursive;
+  padding: 3%
 }
 ol{
-  font-size: 30px
+  font-size: 30px;
+  color: white;
 }
