@@ -1,5 +1,7 @@
 h1{
   text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 50px;
 
 }
 body{
@@ -8,5 +10,10 @@ body{
 p{
   font-size: 50px;
   color:white;
-  text-align: center;justify-content:
+  text-align: center, justify;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Audiowide', cursive;
+}
+ol{
+  font-size: 30px
 }
