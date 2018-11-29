@@ -7,6 +7,7 @@ h1{
 }
 body{
   background-image: url(../img/111193-OO0LDV-826.jpg);
+  opacity: 3.0;
 }
 p{
   font-size: 50px;
@@ -14,9 +15,13 @@ p{
   text-align: center, justify;
   font-family: 'Black Han Sans', sans-serif;
   font-family: 'Audiowide', cursive;
-  padding: 3%
+  padding: 3%;
+
 }
-ol{
+ul{
+  text-align: center;
   font-size: 30px;
-  color: white;
+  color: ;
+  opacity: 2.0;
+  padding:
 }
