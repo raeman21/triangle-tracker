@@ -1,6 +1,6 @@
-var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,19,20];
-var b = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,19,20];
-var c = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,19,20];
+var a = document.getElementById("no1");
+var b = document.getElementById("no1");
+var c = document.getElementById("no1");
   if (a === b && b === c && c === a) {
     return("EQUILATERAL TRIANGLE")
   }
@@ -12,4 +12,9 @@ var c = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,19,20];
   }
   else if((a+b)<=c || (a+c)<=b || (b+c)<=a){
     return("NOT A TRIANGLE");
+  }
+
+  //Front-end logic
+  $(document).ready(function){
+    var
   }
