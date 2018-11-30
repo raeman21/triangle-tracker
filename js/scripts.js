@@ -4,26 +4,29 @@ var triangleTracker = function(){
       var b = document.getElementById("#yourNumber").value;
       var c = document.getElementById("#ourNumber").value;
 
-      if (a === b && b === c && c === a){
-        alert("EQUILATERAL TRIANGLE");
+        if (a === b && b === c && c === a){
+        ;
       }  else if (a === b || a === c || b === c){
-        alert("ISOSCELES TRIANGLE");
+
       }  else if (a !== b && b !==c ){
-        alert("SCALENE TRIANGLE");
+        ;
       }  else if((a+b)<=c || (a+c)<=b || (b+c)<=a){
-        alert("NOT A TRIANGLE");
+        ;
   }
 };
-      $(document).getElementById('id')(function() {
-        $("button#hello").click(function() {
-          $("ul").prepend("<li>Hello!</li>");
+      $(document).getElementById('#myNumber')(function() {
+        $("button#bt").click(function() {
+          $("alert("EQUILATERAL TRIANGLE")")
         });
-
-        $("button#goodbye").click(function() {
-          $("ul").prepend("<li>Goodbye!</li>");
-        });
-
-        $("button#stop").click(function() {
-          $("ul").prepend("<li>Stop copying me!</li>");
-        });
-      });
+        $(document).getElementById('#yourNumber')(function() {
+          $("button#bt").click(function() {
+            $("alert("ISOSCELES TRIANGLE");")
+          });
+          $(document).getElementById('#ourNumber')(function() {
+            $("button#bt").click(function() {
+              $("alert("SCALENE TRIANGLE")")
+            });
+            $(document).getElementById('#myNumber')(function() {
+              $("button#bt").click(function() {
+                $("alert("NOT A TRIANGLE")")
+              });
