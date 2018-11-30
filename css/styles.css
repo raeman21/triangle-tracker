@@ -20,9 +20,16 @@ p{
   padding: 3%;
 
 }
-.row{
-  align-items: center;
+.form-control{
+  width: 100%;
+  border-color: yellow;
+  border-radius: 25px;
 }
+.btn{
+  border-radius: 25px;
+}
+
+
 ul{
   text-align: center;
   display: inline;
@@ -30,6 +37,13 @@ ul{
   color:#2EFEF7 ;
   opacity: 1;
   font-family: 'Bungee Inline', cursive;
-
-
+}
+.secondli{
+  color: #FFFF00;
+}
+.lowerli{
+  color: #FF0000;
+}
+.lastli{
+  color: #FF338D;
 }
