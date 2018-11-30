@@ -15,6 +15,6 @@ var c = document.getElementById("no1");
   }
 
   //Front-end logic
-  $(document).ready(function){
-    var
+  $("submit").ready(return){
+    
   }
