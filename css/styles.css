@@ -9,7 +9,7 @@ body{
   background-image: url(../img/111193-OO0LDV-826.jpg);
   background-blend-mode: screen;
   opacity: 3.0;	  opacity: 3.0;
-}	
+}
 
 p{
   font-size: 50px;
@@ -20,12 +20,16 @@ p{
   padding: 3%;
 
 }
+.row{
+  border-radius: 20px;
+}
 ul{
   text-align: center;
   display: inline;
   font-size: 40px;
-  color:#01DFD7 ;
+  color:#2EFEF7 ;
   opacity: 1;
   font-family: 'Bungee Inline', cursive;
+
 
 }
