@@ -1,12 +1,13 @@
 var triangleTracker = function(){
 
-      var a = document.getElementById("#myNumber").value;
-      var b = document.getElementById("#yourNumber").value;
-      var c = document.getElementById("#ourNumber").value;
+      var a = document.getElementById("#Number").value;
+      var b = document.getElementById("#Number").value;
+      var c = document.getElementById("#Number").value;
+
 
         if (a === b && b === c && c === a){
-            alert("EQUILATERAL TRIANGLE")
-        ;
+            alert("EQUILATERAL TRIANGLE");
+        });
       }  else if (a === b || a === c || b === c){
             alert("ISOSCELES TRIANGLE")
 

@@ -8,7 +8,7 @@ h1{
 body{
   background-image: url(../img/111193-OO0LDV-826.jpg);
   background-blend-mode: screen;
-  opacity: 3.0;	  opacity: 3.0;
+  opacity: 3.0;	
 }
 
 p{
@@ -21,9 +21,12 @@ p{
 
 }
 .form-control{
-  width: 100%;
-  border-color: yellow;
+  width: 10%;
+  border-color: #2EFEF7;
   border-radius: 25px;
+  display: inline;
+  align-items: center;
+
 }
 .btn{
   border-radius: 25px;
