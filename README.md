@@ -15,13 +15,13 @@
 *if the sum of any two sides are equal or less than the third side, it should return not a triangle.
 {server is needed to run the application. App depends on google fonts api and jquery cdn, to run }
 ## Known bugs
-{The interactivity of the button once clicked to alert whether a triangle, what type or not is lacking}
+{No known bugs}{If found Kindly contact<mandelar94@gmail.com>}
 ## Technologies used
 {The app uses HTML5, CSS3, JavaScript, and jQuery}
 ### License
 {MIT License
 
-Copyright (c) [2018][mandela rae]
+Copyright (c) [2018][Mandela Rae]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
