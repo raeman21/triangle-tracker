@@ -8,10 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Audiowide|Black+Han+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script rel ="stylesheet" type="text/javascript" src="js/scripts.js"></script>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </style>
 
   <title>Triangle Tracker</title>
 </head>
@@ -21,15 +19,14 @@
   <p><strong>Enter 3 numbers in the spaces provided and it should inform you whether the shape is:</strong></p>
 
       <div class="row">
-        <input id="Number" type=number class="form-control"  placeholder="First number">
+
+        <input id="Number1"  type="number" name ="num1" value ="0"><br>
+        <input id="Number2"  type="number" name ="num2" value ="0"><br>
+        <input id="Number3"  type="number" name ="num3" value ="0"><br>
+
       </div>
-      <div class="row">
-        <input id="Number" type="number" class="form-control"  placeholder="Second number">
-      </div>
-      <div class="row">
-        <input id="Number" type="number" class="form-control"  placeholder="Third number">
-      </div>
-      <button class="btn" id="bt" type="submit" >click</button>
+
+      <button type="button"  onclick="triangleTracker()">click</button>
 
 
   <ul>
@@ -40,5 +37,4 @@
   </ul>
 
 </body>
-
 </html>
