@@ -17,7 +17,7 @@
 *if the sum of any two sides are equal or less than the third side, it should return not a triangle.
 {server is needed to run the application. App depends on google fonts api and jquery cdn, to run }
 ## Known bugs
-{No known bugs}{If found Kindly contact<mandelar94@gmail.com>}
+{No known bugs}{If found Kindly contact <mandelar94@gmail.com>}
 ## Technologies used
 {The app uses HTML5, CSS3, JavaScript, and jQuery}
 ### License
