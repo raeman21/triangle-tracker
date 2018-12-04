@@ -3,6 +3,8 @@
 #### By ** {Mandela Rae}
 ## Description
 {The application has three input tabs where when values are inputted and button clicked, it would tell whether an equilateral, scalene, Isosceles, or not a triangle at all}
+## Link to live site on github
+{https://raeman21.github.io/triangle-tracker/.}
 ## Setup/Installation Requirements
 *Click on the application
 *wait for the page to open

@@ -10,7 +10,7 @@ var triangleTracker = function() {
         alert("ISOSCELES TRIANGLE");
       }else if (a!==b || b!==c || c!==a) {
             alert("SCALENE TRIANGLE");
-        }else {
+        }else  {
           alert("NOT A TRIANGLE");
         }
 
