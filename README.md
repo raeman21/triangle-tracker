@@ -5,6 +5,17 @@
 {The application has three input tabs where when values are inputted and button clicked, it would tell whether an equilateral, scalene, Isosceles, or not a triangle at all}
 ## Link to live site on github
 {https://raeman21.github.io/triangle-tracker/.}
+## Setup/Installation Requirements
+*Click on the application
+*wait for the page to open
+*once open input desired values into fields provided
+*click the button provided
+*you should get information on the properties of the triangle
+*if three sides are equal it should alert Equilateral
+*if two sides are equal it should alert Isosceles
+*if no sides are equal but the sum of any two sides are greater then the third it should alert Scalene
+*if the sum of any two sides are equal or less than the third side, it should return not a triangle.
+{server is needed to run the application. App depends on google fonts api and jquery cdn, to run }
 ## BDD implementation
 var triangleTracker = function() {
 
@@ -23,17 +34,6 @@ var triangleTracker = function() {
         }
 
     };
-## Setup/Installation Requirements
-*Click on the application
-*wait for the page to open
-*once open input desired values into fields provided
-*click the button provided
-*you should get information on the properties of the triangle
-*if three sides are equal it should alert Equilateral
-*if two sides are equal it should alert Isosceles
-*if no sides are equal but the sum of any two sides are greater then the third it should alert Scalene
-*if the sum of any two sides are equal or less than the third side, it should return not a triangle.
-{server is needed to run the application. App depends on google fonts api and jquery cdn, to run }
 ## Known bugs
 {No known bugs}{If found Kindly contact <mandelar94@gmail.com>}
 ## Technologies used
