@@ -16,24 +16,15 @@
 *if no sides are equal but the sum of any two sides are greater then the third it should alert Scalene
 *if the sum of any two sides are equal or less than the third side, it should return not a triangle.
 {server is needed to run the application. App depends on google fonts api and jquery cdn, to run }
-## BDD implementation
-var triangleTracker = function() {
+## Behavior Driven Development implementation
+1.Gather input or number values.
 
-    var a = document.getElementById("Number1").value;
-    var b = document.getElementById("Number2").value;
-    var c = document.getElementById("Number3").value;
+2.Run number values through business logic.
 
-    if (a === b && b === c && c === a) {
-      alert("EQUILATERAL TRIANGLE");
-    } else if (a === b || a === c || b === c) {
-        alert("ISOSCELES TRIANGLE");
-      }else if (a!==b || b!==c || c!==a) {
-            alert("SCALENE TRIANGLE");
-        }else  {
-          alert("NOT A TRIANGLE");
-        }
+3.Business logic will tell what type of triangle it is.
 
-    };
+4.If values do not fit into criteria of triangle app should return not a triangle.
+
 ## Known bugs
 {No known bugs}{If found Kindly contact <mandelar94@gmail.com>}
 ## Technologies used
