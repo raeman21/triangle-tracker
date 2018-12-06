@@ -1,5 +1,5 @@
 # {TRIANGLE TRACKER}
- <!["img/13260.jpg"]() ["img/58064.jpg"]>
+ <![triangle]("img/13260.jpg")> <![triangle]("img/58064.jpg")>
 #### {This is an application aimed at telling what type of triangle exists by values entered}, {Friday November 30th 2018}
 #### By ** {Mandela Rae}
 ## Description
