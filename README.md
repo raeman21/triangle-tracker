@@ -1,5 +1,5 @@
 # {TRIANGLE TRACKER}
- <![triangle](img/icons8-sort-down-64 (1)).png)> <![triangle](img/icons8-sort-down-64.png)>
+ ![](img/icons8-sort-down-64 (1.png)![](img/icons8-sort-down-64.png)
 #### {This is an application aimed at telling what type of triangle exists by values entered}, {Friday November 30th 2018}
 #### By ** {Mandela Rae}
 ## Description
